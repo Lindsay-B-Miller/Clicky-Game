@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import ImageCard from "./coomponents/ImageCard"
 import './App.css';
 import images from "./images.json";
 
@@ -7,41 +9,41 @@ function App() {
   return (
     <Wrapper>
       <Title>Images List</Title>
-      <FriendCard
-        image={friends[0].image}
+      <ImageCard
+        image={images[0].image}
       />
-      <FriendCard
-        image={friends[1].image}
+      <ImageCard
+        image={images[1].image}
       />
-      <FriendCard
-        image={friends[2].image}
+      <ImageCard
+        image={images[2].image}
       />
-      <FriendCard
-        image={friends[3].image}
+      <ImageCard
+        image={images[3].image}
       />
-      <FriendCard
-        image={friends[4].image}
+      <ImageCard
+        image={images[4].image}
       />
-      <FriendCard
-        image={friends[5].image}
+      <ImageCard
+        image={images[5].image}
       />
-      <FriendCard
-        image={friends[6].image}
+      <ImageCard
+        image={images[6].image}
       />
-      <FriendCard
-        image={friends[7].image}
+      <ImageCard
+        image={images[7].image}
       />
-      <FriendCard
-        image={friends[8].image}
+      <ImageCard
+        image={images[8].image}
       />
-      <FriendCard
-        image={friends[9].image}
+      <ImageCard
+        image={images[9].image}
       />
-      <FriendCard
-        image={friends[10].image}
+      <ImageCard
+        image={images[10].image}
       />
-      <FriendCard
-        image={friends[11].image}
+      <ImageCard
+        image={images[11].image}
       />
     </Wrapper>
   );
