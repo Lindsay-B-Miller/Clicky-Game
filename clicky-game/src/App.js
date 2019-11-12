@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import ImageCard from "./coomponents/ImageCard"
+import ImageCard from "./components/ImageCard"
 import './App.css';
 import images from "./images.json";
 
