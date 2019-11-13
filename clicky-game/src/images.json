@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/cactus.jpg",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/daisy.jpg",
     "clicked": false
   },
   {
     "id": 3,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/fall.jpg",
     "clicked": false
   },
   {
     "id": 4,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/lightning.jpg",
     "clicked": false
   },
   {
     "id": 5,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/maroonBells.jpg",
     "clicked": false
   },
   {
     "id": 6,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/mountain.jpg",
     "clicked": false
   },
   {
     "id": 7,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/northernLights.jpg",
     "clicked": false
   },
   {
     "id": 8,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/ocean.jpg",
     "clicked": false
   },
   {
     "id": 9,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/rain.jpg",
     "clicked": false
   },
   {
     "id": 10,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/sandDune.jpg",
     "clicked": false
   },
   {
     "id": 11,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/snow.jpg",
     "clicked": false
   },
   {
     "id": 12,
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "image": "./assets/images/trees.jpg",
     "clicked": false
   }
 ]

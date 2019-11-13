@@ -4,10 +4,16 @@ import Title from "./components/Title";
 import ImageCard from "./components/ImageCard"
 import './App.css';
 import images from "./images.json";
+import shuffle from "shuffle-array";
+
+const collection = { images };
+shuffle(collection.images);
+
 
 function App() {
+  console.log({ images })
   return (
-    <div>
+    < div >
       <Title>Clicky Game!</Title>
       <Wrapper>
         <ImageCard
@@ -47,7 +53,7 @@ function App() {
           image={images[11].image}
         />
       </Wrapper >
-    </div>
+    </div >
   );
 }
 
