@@ -2,7 +2,14 @@ import React from "react";
 import "./style.css";
 
 function Title(props) {
-  return <h1 className="title">{props.children}</h1>;
+  return (
+    <div className="jumbotron jumbotron-fluid">
+      <div className="container">
+        <h1 className="display-4 title">{props.children}</h1>
+        <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div>
+  )
 }
 
 export default Title;
