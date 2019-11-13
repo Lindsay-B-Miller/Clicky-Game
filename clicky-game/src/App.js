@@ -9,52 +9,37 @@ import shuffle from "shuffle-array";
 const collection = { images };
 shuffle(collection.images);
 
+// Counter
+class App extends React.Component {
+  state = {
+    count: 0,
+    highScore: 0
+  };
 
-function App() {
-  // console.log({ images })
-  return (
-    < div >
-      <Title>Clicky Game!</Title>
-      <Wrapper>
-        <ImageCard
-          image={images[0].image}
-        />
-        <ImageCard
-          image={images[1].image}
-        />
-        <ImageCard
-          image={images[2].image}
-        />
-        <ImageCard
-          image={images[3].image}
-        />
-        <ImageCard
-          image={images[4].image}
-        />
-        <ImageCard
-          image={images[5].image}
-        />
-        <ImageCard
-          image={images[6].image}
-        />
-        <ImageCard
-          image={images[7].image}
-        />
-        <ImageCard
-          image={images[8].image}
-        />
-        <ImageCard
-          image={images[9].image}
-        />
-        <ImageCard
-          image={images[10].image}
-        />
-        <ImageCard
-          image={images[11].image}
-        />
-      </Wrapper >
-    </div >
-  );
+  handleClick = () => {
+    this.setState({ count: this.state.count + 1 });
+    shuffle(collection.images)
+  };
+
+
+  render(props) {
+    return (
+      < div >
+        <Title count={this.state.count} highScore={this.state.highScore}>Clicky Game!</Title>
+        <Wrapper>
+          {images.map(image => {
+            return <ImageCard
+              image={image.image}
+              id={image.id}
+              clicked={image.clicked}
+              handleClick={this.handleClick}
+            />
+          })
+          }
+        </Wrapper >
+      </div >
+    )
+  }
 }
 
 
