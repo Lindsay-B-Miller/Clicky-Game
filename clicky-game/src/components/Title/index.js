@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import "../Counter/Counter.js";
 
 function Title(props) {
   return (
@@ -7,7 +8,8 @@ function Title(props) {
       <div className="container">
         <h1 className="display-4 title">{props.children}</h1>
         <p className="lead">Click on an image to earn points, but don't click on any more than once!</p>
-        <p className="lead">Score: {props.score} | High Score: {props.highScore}</p>
+        <hr className="my-4"></hr>
+        <p className="lead">Score: {props.count} | High Score: {props.highScore}</p>
       </div>
     </div>
   )

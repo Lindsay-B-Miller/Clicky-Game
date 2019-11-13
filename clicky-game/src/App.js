@@ -11,7 +11,7 @@ shuffle(collection.images);
 
 
 function App() {
-  console.log({ images })
+  // console.log({ images })
   return (
     < div >
       <Title>Clicky Game!</Title>
