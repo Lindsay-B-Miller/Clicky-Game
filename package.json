@@ -1,6 +1,6 @@
 {
   "name": "clicky-game",
-  "hmepage": "https://Lindsay-B-Miller.github.io/Clicky-Game",
+  "homepage": "https://Lindsay-B-Miller.github.io/Clicky-Game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
